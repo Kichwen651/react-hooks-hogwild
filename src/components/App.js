@@ -8,6 +8,7 @@ function App() {
     const [greasedOnly, setGreasedOnly] = useState(false);
     const [sortOption, setSortOption] = useState("none");
     const [hiddenHogs, setHiddenHogs] = useState([]);
+    
     const [hogList, setHogList] = useState(hogs);
 
     const hideHog = (hogName) => {

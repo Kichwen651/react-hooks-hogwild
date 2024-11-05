@@ -82,7 +82,7 @@ ul {
 .pigTile {
   display: inline;
   background-repeat: no-repeat;
-  background-position: center 90%;
+  background-position: center 30;
   float: left;
   margin: 2%;
   padding: 1%;
@@ -112,21 +112,9 @@ ul {
   color: #FBB;
 }
 
-.minPigTile {
-  width: 250px;
-  height: 250px;
-  background-size: cover;
-}
 
-.maxPigTile {
-  background-size: cover;
-  width: 500px;
-  height: 500px;
-}
 
-.pigTile:hover {
-  transform: scale(1.05);
-}
+
 
 
 .App-logo {
